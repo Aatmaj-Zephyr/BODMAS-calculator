@@ -16,7 +16,7 @@ build-android:
       uses: ArtemSBulgakov/buildozer-action@v1
       id: buildozer
       with:
-        workdir: https://github.com/Aatmaj-Zephyr/BODMAS-calculator/tree/main/App%20files
+        workdir: BODMAS-calculator
         buildozer_version: stable
 
     - name: Upload artifacts
