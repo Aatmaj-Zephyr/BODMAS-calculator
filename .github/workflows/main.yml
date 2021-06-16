@@ -16,7 +16,7 @@ build-android:
       uses: ArtemSBulgakov/buildozer-action@v1
       id: buildozer
       with:
-        workdir: App files/Calculator.py
+        workdir: 
         buildozer_version: stable
 
     - name: Upload artifacts
