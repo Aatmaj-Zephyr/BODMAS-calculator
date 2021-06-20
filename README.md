@@ -1,2 +1,2 @@
 # BODMAS-calculator
-pMaking a trail calculator which runs on BODMAS convection Cuttently work in progress
+Making a trail calculator using Kivy Python which runs on BODMAS convection Cuttently work in progress
