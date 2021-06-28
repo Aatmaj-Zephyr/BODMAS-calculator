@@ -1,3 +1,4 @@
+#imports
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
@@ -86,9 +87,9 @@ def Build_Button_Array(i, label, Array_Of_Input_Values, Array_Of_Button_Instance
 
 def On_Pressing_Button(i, Array_Of_Button_Instances, label, Array_Of_Input_Values):
     text = Array_Of_Button_Instances[i].text
-    for j in range(0, len(Array_Of_Button_Instances)):
+    for j in range(0, len(Array_Of_Button_Instances)):#This is to change the values of the colour of the buttons when pressed
         Array_Of_Button_Instances[j].background_color = (Button_Background_Colour)
-    if (text in Array_Of_Operators):
+    if (text in Array_Of_Operators): #If the button is one of the sines, then the value stays.
         Array_Of_Button_Instances[i].background_color = (Button_OnClick_Colour)
 
     if len(Array_Of_Input_Values) != 0:  # initial case of empty array
