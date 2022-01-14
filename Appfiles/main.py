@@ -292,6 +292,7 @@ def Calculate(Array_Of_Processed_Values):
 
 
 class DemoApp(App):
+
     def build(self):
         Array_Of_Input_Values = []
         float = FloatLayout()
